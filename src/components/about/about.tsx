@@ -41,10 +41,10 @@ const About = () => {
                   </h1>
                   <p className="text-lg mb-6">
                     At JournalMotion, we are more than just a news media
-                    platform; we are your gateway to the world's latest events,
-                    trends, and developments. With a commitment to delivering
-                    timely and accurate news coverage, we strive to keep our
-                    audience informed, engaged, and empowered.
+                    platform; we are your gateway to the world&apos;s latest
+                    events, trends, and developments. With a commitment to
+                    delivering timely and accurate news coverage, we strive to
+                    keep our audience informed, engaged, and empowered.
                   </p>
                   <div className="mb-8">
                     <h2 className="text-xl font-semibold mb-2">Our Mission</h2>
@@ -52,9 +52,9 @@ const About = () => {
                       Our mission at JournalMotion is clear: to provide
                       comprehensive and unbiased news coverage that empowers
                       individuals to make informed decisions. We understand the
-                      importance of reliable information in today's fast-paced
-                      world, and we aim to be your trusted source for news that
-                      matters.
+                      importance of reliable information in today&apos;s
+                      fast-paced world, and we aim to be your trusted source for
+                      news that matters.
                     </p>
                     <h2 className="text-xl font-semibold mb-2">
                       Comprehensive Coverage
@@ -62,10 +62,10 @@ const About = () => {
                     <p className="text-lg mb-6">
                       From breaking news stories to in-depth analyses, our team
                       of dedicated journalists works tirelessly to bring you the
-                      most relevant and up-to-date information. Whether it's
-                      politics, business, technology, health, or culture, we
-                      cover a wide range of topics to ensure that you stay
-                      informed about the issues that impact your life.
+                      most relevant and up-to-date information. Whether
+                      it&apos;s politics, business, technology, health, or
+                      culture, we cover a wide range of topics to ensure that
+                      you stay informed about the issues that impact your life.
                     </p>
                     <h2 className="text-xl font-semibold mb-2">
                       Unwavering Integrity
@@ -80,7 +80,7 @@ const About = () => {
                       receive from us.
                     </p>
                     <h2 className="text-xl font-semibold mb-2">
-                      Founder's Vision
+                      Founder&apos;s Vision
                     </h2>
                     <p className="text-lg mb-6">
                       Founded by visionary entrepreneur Vishal Mishra,
@@ -95,10 +95,10 @@ const About = () => {
                     </h2>
                     <p className="text-lg mb-6">
                       At JournalMotion, we believe in the power of community.
-                      That's why we invite you to connect with us on our various
-                      platforms – from our website to social media channels.
-                      Join the conversation, share your thoughts, and stay
-                      connected with the latest news and updates from
+                      That&apos;s why we invite you to connect with us on our
+                      various platforms – from our website to social media
+                      channels. Join the conversation, share your thoughts, and
+                      stay connected with the latest news and updates from
                       JournalMotion.
                     </p>
                     <h2 className="text-xl font-semibold mb-2">Our Promise</h2>
