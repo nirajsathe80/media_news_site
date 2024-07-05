@@ -1,0 +1,40 @@
+{
+    "lifestyleNews": [
+      {
+        "title": "How to Get More Benefits from 10,000 Steps per Day",
+        "content": "Walking 10,000 steps daily is a common fitness goal, but maximizing its benefits requires strategic planning. Incorporating varied terrains, adjusting pace, and combining walking with other physical activities can enhance cardiovascular health, boost mood, and improve overall fitness.",
+        "writer": "Niraj Sathe",
+        "src":"https://static01.nyt.com/images/2022/08/03/well/FITNESS-WALKING-MEALS/FITNESS-WALKING-MEALS-videoSixteenByNineJumbo1600.jpg",
+        "category":"Political"
+      },
+      {
+        "title": "The Surprising Health Benefits of Gardening",
+        "content": "Gardening is not only a therapeutic hobby but also offers significant health benefits. It promotes physical activity, reduces stress, and improves mental health. Engaging in gardening tasks such as planting, weeding, and harvesting provides a full-body workout, enhances dexterity, and can lead to better dietary habits by growing your own vegetables. This holistic activity connects people with nature and fosters a sense of accomplishment and well-being​ ",
+        "writer": "Niraj Sathe",
+        "category":"Lifestyle",
+        "src":"https://www.marthastewart.com/thmb/AIL-k7ji-9r_L_m6im0GuNHkSuY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/garden-glossary-potting-getty-0623-ecf762deed2a43bca2a90183cb03da31.jpg"
+      },
+      {
+        "title": "Managing Mental Health with Holistic Approaches",
+        "content": "Addressing mental health goes beyond traditional therapies and medications. Integrating holistic practices such as mindfulness, yoga, and nutritional adjustments can play a vital role in managing anxiety, depression, and stress. These approaches focus on the mind-body connection, encouraging individuals to adopt sustainable, healthy habits that promote overall mental wellness..",
+        "writer": "Niraj Sathe",
+        "category":"Lifestyle",
+        "src" : "https://aihms.in/blog/wp-content/uploads/2020/08/mental1.jpg"
+      },
+      {
+        "title": "Intermittent Fasting and Its Impact on Gut Health",
+        "content": "Intermittent fasting has gained popularity for its potential health benefits, including weight management and improved gut health. Research suggests that intermittent fasting can help reset the gut microbiome, reduce inflammation, and enhance metabolic functions. By giving the digestive system regular breaks, fasting supports better digestion and can lead to a healthier balance of gut bacteria, contributing to overall well-being",
+        "writer": "Niraj Sathe",
+        "category":"Lifestyle",
+        "src" : "https://pharmaconic.com/wp-content/uploads/2022/08/maxresdefault-1080x675.jpg"
+      },
+      {
+        "title": "Building Social Connections for Longevity",
+        "content": "Social engagement is crucial for maintaining mental and physical health, especially as we age. Strong social connections can reduce the risk of chronic diseases, improve mental health, and enhance longevity. Participating in community activities, volunteering, and maintaining close relationships with family and friends are key strategies to foster social bonds. These interactions provide emotional support, reduce feelings of loneliness, and contribute to a fulfilling life",
+        "writer": "Niraj Sathe",
+        "category":"Lifestyle",
+        "src": "https://as1.ftcdn.net/v2/jpg/01/13/52/82/1000_F_113528216_pJdXkcKUoOxgIIW5fIddob17xppFZK6F.jpg"
+      }
+    ]
+  }
+  
