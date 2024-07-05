@@ -1,17 +1,16 @@
 import Footer from "@/src/common/footer";
 import Header from "@/src/common/header";
-import SpeedDial from "@/src/common/speed-dial/speed-dial";
+import NewsLetter from "@/src/common/news-letter/newsLetter";
 import Pagination from "@/src/components/pagination/pagination";
 import Review from "@/src/components/review/review";
 
 const ReviewPage = () => {
-  console.log('sss')
   return (
     <div>
       <Header />
       <Review />
       <Pagination />
-      <SpeedDial />
+      <NewsLetter />
       <Footer />
     </div>
   );
