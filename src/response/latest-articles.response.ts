@@ -4,4 +4,5 @@ export interface LatestArticlesBlogData {
   category: string;
   writer: string;
   publishedDate: string;
+  src: string;
 }
