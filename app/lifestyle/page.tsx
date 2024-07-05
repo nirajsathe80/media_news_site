@@ -1,16 +1,18 @@
 import Footer from "@/src/common/footer";
 import Header from "@/src/common/header";
-import SpeedDial from "@/src/common/speed-dial/speed-dial";
-import LifeStyle from "@/src/components/lifestyle/lifestyle";
+import NewsLetter from "@/src/common/news-letter/newsLetter";
+import PageStructure from "@/src/common/page-structure";
 import Pagination from "@/src/components/pagination/pagination";
+import LifeStyleNews from "@/src/components/lifestyle/life-style-json/index.json";
 
 const LifeStylePage = () => {
+  const { lifestyleNews } = LifeStyleNews;
   return (
     <div>
       <Header />
-      <LifeStyle />
+      <PageStructure pageTitle="LifeStyle" newsArray={lifestyleNews} />
       <Pagination />
-      <SpeedDial />
+      <NewsLetter />
       <Footer />
     </div>
   );
