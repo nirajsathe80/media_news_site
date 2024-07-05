@@ -2,7 +2,6 @@
 import Footer from "@/src/common/footer";
 import Header from "@/src/common/header";
 import PageStructure from "@/src/common/page-structure";
-import India from "@/src/components/India/india";
 import IndiaNews from "../../src/components/India/indiaNewsJson/india-news.json";
 import Pagination from "@/src/components/pagination/pagination";
 import NewsLetter from "@/src/common/news-letter/newsLetter";
