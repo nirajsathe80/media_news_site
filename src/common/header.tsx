@@ -1,12 +1,10 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { Header_Links } from "./Links/links";
 
 const Header = () => {
-  const [query, setQuery] = useState("");
-
   const handleSearch = () => {};
   return (
     <div className="bg-[#191818] headerWidth ">
@@ -19,9 +17,9 @@ const Header = () => {
           <input
             type="text"
             placeholder="Search"
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={() => {}}
             onClick={handleSearch}
-            className="bg-white text-gray-800 w-full px-2 py-1 rounded-lg max-w-[700px]"
+            className="bg-white text-gray-800 w-full px-5 py-1 rounded-lg max-w-[700px]"
           />
         </div>
 
