@@ -1,16 +1,18 @@
 import Footer from "@/src/common/footer";
 import Header from "@/src/common/header";
-import SpeedDial from "@/src/common/speed-dial/speed-dial";
+import NewsLetter from "@/src/common/news-letter/newsLetter";
+import PageStructure from "@/src/common/page-structure";
 import Pagination from "@/src/components/pagination/pagination";
-import Politics from "@/src/components/politics/politics";
+import PoliticalNews from "../../src/components/politics/politicsJson/politics-news.json";
 
 const PoliticsPage = () => {
+  const { politicsNews } = PoliticalNews;
   return (
     <div>
       <Header />
-      <Politics />
+      <PageStructure pageTitle="Politics" newsArray={politicsNews} />
       <Pagination />
-      <SpeedDial />
+      <NewsLetter />
       <Footer />
     </div>
   );
