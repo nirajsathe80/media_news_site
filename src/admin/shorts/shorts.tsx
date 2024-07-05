@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import InputField from "./input-field";
 import Reflection from "./reflection";
-import { shortsFormService } from "@/src/service/shorts.service";
+// import { shortsFormService } from "@/src/service/shorts.service";
 
 const ShortsAdmin = () => {
   const [inputValues, setInputValues] = useState({
@@ -19,16 +19,16 @@ const ShortsAdmin = () => {
   };
 
   const handleOnSubmit = async (e: any) => {
-    e.preventDefault();
-    try {
-      if (value1.length > 0 && value2.length > 0) {
-        const shortsFormResponse = await shortsFormService.shortsFormData(
-          JSON.stringify(inputValues)
-        );
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error);
-    }
+    // e.preventDefault();
+    // try {
+    //   if (value1.length > 0 && value2.length > 0) {
+    //     const shortsFormResponse = await shortsFormService.shortsFormData(
+    //       JSON.stringify(inputValues)
+    //     );
+    //   }
+    // } catch (error) {
+    //   console.error("Error submitting form:", error);
+    // }
   };
 
   return (
