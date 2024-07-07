@@ -37,7 +37,7 @@ const PageStructure = ({ pageTitle, newsArray }: PageStructureProps) => {
 
               <div className="mb-6 mr-auto w-full shrink-0 grow-0 basis-auto px-3 md:mb-0 md:w-9/12 xl:w-7/12">
                 <h5 className="mb-3 text-lg font-bold">{title}</h5>
-                <div className="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
+                <div className="mb-3 flex items-center justify-center text-sm font-medium text-danger md:justify-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -54,7 +54,7 @@ const PageStructure = ({ pageTitle, newsArray }: PageStructureProps) => {
                   </svg>
                   {category}
                 </div>
-                <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+                <p className="mb-6 text-neutral-500">
                   <small>
                     Published on <div>13.01.2022</div> by
                     <Link href={"#"} className="ml-2">
@@ -62,9 +62,7 @@ const PageStructure = ({ pageTitle, newsArray }: PageStructureProps) => {
                     </Link>
                   </small>
                 </p>
-                <p className="text-neutral-500 dark:text-neutral-300">
-                  {truncatedContent}
-                </p>
+                <p className="text-neutral-500">{truncatedContent}</p>
               </div>
             </div>
           );

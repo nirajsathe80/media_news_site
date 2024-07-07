@@ -6,7 +6,7 @@ const BlogSection = () => {
           An intriguing title for an interesting article
         </h1>
 
-        <p className="mb-6 flex items-center font-bold uppercase text-danger dark:text-danger-500">
+        <p className="mb-6 flex items-center font-bold uppercase text-danger">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -50,7 +50,7 @@ const BlogSection = () => {
           consequuntur eligendi.
         </p>
 
-        <p className="mb-6 rounded border-l-4 border-neutral-800 bg-neutral-100 p-2 dark:border-neutral-200 dark:bg-neutral-700">
+        <p className="mb-6 rounded border-l-4 border-neutral-800 bg-neutral-100 p-2">
           <strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Optio odit consequatur porro sequi ab distinctio
           modi. Rerum cum dolores sint, adipisci ad veritatis laborum eaque
@@ -66,7 +66,7 @@ const BlogSection = () => {
 
         <img
           src="https://mdbcdn.b-cdn.net/img/new/slides/194.jpg"
-          className="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20"
+          className="mb-6 w-full rounded-lg shadow-lg"
           alt=""
         />
 

@@ -53,15 +53,13 @@ const LatestArticles = () => {
                       </svg>
                       {category}
                     </div>
-                    <p className="mb-6 text-neutral-500 dark:text-neutral-300">
+                    <p className="mb-6 text-neutral-500">
                       <small>
                         Published on <u>13.01.2022</u> by{" "}
                         <Link href={"/#"}>{writer}</Link>
                       </small>
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-300">
-                      {truncatedContent}
-                    </p>
+                    <p className="text-neutral-500 ">{truncatedContent}</p>
                   </Link>
                 </div>
               );
