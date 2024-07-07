@@ -1,5 +1,3 @@
-import Footer from "@/src/common/footer";
-import Header from "@/src/common/header";
 import NewsLetter from "@/src/common/news-letter/newsLetter";
 import PageStructure from "@/src/common/page-structure";
 import Pagination from "@/src/components/pagination/pagination";
@@ -8,13 +6,11 @@ import PoliticalNews from "../../src/components/politics/politicsJson/politics-n
 const PoliticsPage = () => {
   const { politicsNews } = PoliticalNews;
   return (
-    <div>
-      <Header />
+    <>
       <PageStructure pageTitle="Politics" newsArray={politicsNews} />
       <Pagination />
       <NewsLetter />
-      <Footer />
-    </div>
+    </>
   );
 };
 
