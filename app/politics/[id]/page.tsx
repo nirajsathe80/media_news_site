@@ -1,15 +1,9 @@
 "use client";
 
-import SpeedDial from "@/src/common/speed-dial/speed-dial";
-import PoliticsSection from "@/src/components/politics/politics-section/politics-blog";
+import BlogPageCommonStructure from "@/src/common/blog-page-structure";
 
 const PoliticsInformation = () => {
-  return (
-    <>
-      <PoliticsSection />
-      <SpeedDial />
-    </>
-  );
+  return <BlogPageCommonStructure />;
 };
 
 export default PoliticsInformation;

@@ -1,15 +1,9 @@
 "use client";
 
-import SpeedDial from "@/src/common/speed-dial/speed-dial";
-import TrendingSection from "@/src/components/trending/trending-section/trending-blog";
+import BlogPageCommonStructure from "@/src/common/blog-page-structure";
 
 const SportsInformation = () => {
-  return (
-    <>
-      <TrendingSection />
-      <SpeedDial />
-    </>
-  );
+  return <BlogPageCommonStructure />;
 };
 
 export default SportsInformation;

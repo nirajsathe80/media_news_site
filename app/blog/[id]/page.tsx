@@ -1,12 +1,12 @@
 "use client";
 
-import BlogSection from "@/src/common/blog/blog-section/blog-section";
+import BlogPageCommonStructure from "@/src/common/blog-page-structure";
 import SpeedDial from "@/src/common/speed-dial/speed-dial";
 
 const BlogInformation = () => {
   return (
     <>
-      <BlogSection />
+      <BlogPageCommonStructure />
       <SpeedDial />
     </>
   );

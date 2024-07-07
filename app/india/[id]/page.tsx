@@ -1,9 +1,9 @@
 "use client";
 
-import IndiaBlog from "@/src/components/India/india-section/india-blog";
+import BlogPageCommonStructure from "@/src/common/blog-page-structure";
 
 const IndiaInformation = () => {
-  return <IndiaBlog />;
+  return <BlogPageCommonStructure />;
 };
 
 export default IndiaInformation;
